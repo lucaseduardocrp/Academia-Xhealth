@@ -3,11 +3,11 @@ import { FlexCSS } from '../../../styles/mixins';
 
 export const HeaderContainer = styled.header`
   padding: 2rem max(calc((100% - 144rem) / 2), 2rem);
+  position: relative;
 
   nav{
     ${FlexCSS};
     justify-content: space-between;
-    position: relative;
 
     .navbar{
       ${FlexCSS};
@@ -23,7 +23,7 @@ export const HeaderContainer = styled.header`
         flex-direction: column;
         align-items: center;
         gap: 4rem;
-        top: 8rem;
+        top: 10rem;
         left: 0;
         padding: 4rem;
         background: ${({theme}) => theme.colors.dark200};
@@ -33,28 +33,6 @@ export const HeaderContainer = styled.header`
         display: none;
       }
     }
-  }
-`;
-
-export const Logo = styled.div`
-  img{
-    width: 18rem;
-    object-fit: contain;
-  }
-`;
-
-export const UserContainer = styled.div`
-  ${FlexCSS};
-  gap: 1rem;
-`;
-
-export const Username = styled.div`
-  font-size: var(--lg);
-  font-weight: 500;
-  color: ${({theme}) => theme.colors.light};
-
-  @media (max-width: 64rem) {
-    display: none;
   }
 `;
 
@@ -69,5 +47,33 @@ export const MobileMenu = styled.div`
 export const RightContainer = styled.div`
   ${FlexCSS};
   gap: 2rem;
+  cursor: pointer;
+  position: relative;
+  
+  @media (max-width: 64rem) {
+    position: static;
+  }
+`;
+
+export const UserDropdown = styled.ul`
+  ${FlexCSS};
+  align-items: start;
+  flex-direction: column;
+  position: absolute;
+  width: 24rem;
+  gap: 4rem;
+  top: 4rem;
+  left: -2rem;
+  padding: 4rem 2rem;
+  background: ${({theme}) => theme.colors.dark100};
+  border-bottom: 0.1rem solid ${({theme}) => theme.colors.primary};
+  
+  @media (max-width: 64rem) {
+    width: 100%;
+    align-items: center;
+    top: 10rem;
+    left: 0;
+    background: ${({theme}) => theme.colors.dark200};
+  }
 `;
 

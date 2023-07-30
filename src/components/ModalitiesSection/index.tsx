@@ -1,3 +1,4 @@
+import { Button } from '../Button';
 import ModalitiesCards from '../ModalitiesCards';
 import { Title } from '../Title';
 import { Container, ModalitiesContainer } from './styles';
@@ -21,7 +22,11 @@ const ModalitiesSection = () => {
           description='Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s.'
           alingEnd
         />
+        <div className='btn-container'>
+          <Button href='#' border>Ver todas modalidades</Button>
+        </div>
       </ModalitiesContainer>
+      
     </Container>
   );
 }

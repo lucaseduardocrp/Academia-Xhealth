@@ -16,7 +16,6 @@ const ModalitiesCards = ({image, title, emphasis, description, alingEnd}: Modali
       
       <TextContainer alingEnd={alingEnd}>
         <Mask alingEnd={alingEnd}></Mask>
-        
         <h4>{title} <b>{emphasis}</b></h4>
         <p>
           {description}

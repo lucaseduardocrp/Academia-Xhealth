@@ -67,7 +67,6 @@ export const TextContainer = styled.div<ModalitiesProps>`
       width: 36rem;
     }
   `}
-  
 `;
 
 export const Mask = styled.div<ModalitiesProps>`

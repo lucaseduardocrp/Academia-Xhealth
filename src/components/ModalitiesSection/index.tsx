@@ -5,7 +5,7 @@ import { Container, ModalitiesContainer } from './styles';
 
 const ModalitiesSection = () => {
   return (
-    <Container>
+    <Container id='Modalities'>
       <Title title='Modalidades' subtitle='As modalidades que mais geram resultados'/>
       
       <ModalitiesContainer>

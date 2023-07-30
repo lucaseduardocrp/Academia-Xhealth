@@ -43,12 +43,12 @@ const Header = () => {
 
         <ul className={active ? 'navbar' : 'navbar close'}>
           <Links href='#'>Início</Links>
-          <Links href='#'>Serviços</Links>
-          <Links href='#'>Modalidades</Links>
-          <Links href='#'>Personais</Links>
-          <Links href='#'>Avaliações</Links>
-          <Links href='#'>Planos</Links>
-          <Links href='#'>Contatos</Links>
+          <Links href='#Service'>Serviços</Links>
+          <Links href='#Modalities'>Modalidades</Links>
+          <Links href='#Personal'>Personais</Links>
+          <Links href='#Avaliations'>Avaliações</Links>
+          <Links href='#Plans'>Planos</Links>
+          <Links href='#Questions'>Contatos</Links>
         </ul>
 
         <RightContainer>

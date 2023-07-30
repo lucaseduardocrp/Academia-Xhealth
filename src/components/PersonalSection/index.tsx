@@ -4,7 +4,7 @@ import { Container } from './styles';
 
 const PersonalSection = () => {
   return (
-    <Container>
+    <Container id='Personal'>
       <Title title='Personais' subtitle='Nossos personais são atletas de alta performance'/>
      
       <PersonalCard />

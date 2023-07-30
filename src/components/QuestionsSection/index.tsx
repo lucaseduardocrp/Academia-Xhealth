@@ -4,7 +4,7 @@ import { Container } from './styles';
 
 const QuestionsSection = () => {
   return (
-    <Container>
+    <Container id='Questions'>
       <Title title='Fale com a gente' subtitle='Mande suas críticas ou suas dúvidas, estamos aqui para te ajudar'/>
 
       <Form />

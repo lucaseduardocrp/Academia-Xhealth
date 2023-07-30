@@ -5,12 +5,16 @@ export const Container = styled.div`
   ${FlexCSS};
   flex-direction: column;
   gap: 1.2rem;
-  width: 33rem;
+  min-width: 36rem;
   height: 100%;
   padding-bottom: 2rem;
-  filter: grayscale(100%);
   border: 0.1rem solid ${({theme}) => theme.colors.gray200};
+  filter: grayscale(100%);       
   transition: all .20s ease;
+
+  &:hover{
+    filter: grayscale(0);
+  }
 
   .image-mask{
     width: 100%;
@@ -23,31 +27,30 @@ export const Container = styled.div`
       left: 0;
       width: 100%;
       height: 100%;
-      background: rgba(0,0,0,0.4);
+      background: rgba(0,0,0,0.3);
+      z-index: 2;
     }
-
+    
     img{
       width: 100%;
       object-fit: contain;
     }
   }
-
-  &:hover{
-    filter: grayscale(0);
-    border: 0.1rem solid ${({theme}) => theme.colors.primary};
-  }
 `;
 
 export const NameContainer = styled.div`
-  padding: 1rem 6.6rem;
-  border: 0.1rem solid ${({theme}) => theme.colors.primary};
+  width: 90%;
+  padding: 1rem 4rem;
+  margin: 0 1rem 0;
+  border: 0.1rem solid ${({theme}) => theme.colors.gray200};
   border-radius: 0.8rem;
 
   p{
     font-size: var(--xl);
     font-weight: 500;
     text-transform: capitalize;
-    color: ${({theme}) => theme.colors.primary};
+    text-align: center;
+    color: ${({theme}) => theme.colors.gray200};
   }
 `;
 
@@ -58,5 +61,38 @@ export const SocialMedia = styled.div`
   img{
     width: 4rem;
     height: 4rem;
+  }
+`;
+
+export const Carousel = styled.div`
+  ${FlexCSS}
+  justify-content: start;
+  gap: 3.6rem;
+  width: 100%;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+
+  &::-webkit-scrollbar{
+    display: none;
+  }
+`;
+
+export const CarouselContainer = styled.div`
+  width: 115.2rem;
+  position: relative;
+
+  .btn-container{
+    .preview, .next{
+      background: transparent;
+      border: none;
+      position: absolute;
+      top: 44%;
+      right: -6rem;
+      cursor: pointer;
+    }
+    .preview{
+      transform: rotateY(180deg);
+      left: -130rem;
+    }
   }
 `;

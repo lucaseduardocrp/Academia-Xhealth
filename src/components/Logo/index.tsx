@@ -1,9 +1,12 @@
+import { Link } from 'react-router-dom';
 import { Container } from './styles';
 
 const Logo = () => {
   return (
     <Container>
-      <img src="/assets/logo.svg" alt="Logo Academia XHealth" />
+      <Link to={'/'}>
+        <img src="/assets/logo.svg" alt="Logo Academia XHealth" />
+      </Link>
     </Container>
   )
 }

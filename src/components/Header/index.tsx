@@ -1,12 +1,13 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import { HeaderContainer, MobileMenu, RightContainer, UserDropdown } from './styles'
 
-import { useState } from 'react';
-import { CloseIcon } from '../../CustomIcons/CloseIcon';
-import { MenuIcon } from '../../CustomIcons/MenuIcon';
+import { useEffect, useState } from 'react';
+import { CloseIcon } from '../CustomIcons/CloseIcon';
+import { MenuIcon } from '../CustomIcons/MenuIcon';
 
-import Links from '../../Links';
-import Logo from '../../Logo';
-import User from '../../User';
+import Links from '../Links';
+import Logo from '../Logo';
+import User from '../User';
 
 const Header = () => {
   const [active, setActive] = useState(false)
@@ -21,8 +22,22 @@ const Header = () => {
     setActive(false)
   }
 
+  useEffect(() => {
+    const closeMenu = () => {
+      setActive(false)
+      setUserActive(false)
+    }
+
+    window.addEventListener('scroll', closeMenu)
+    
+    return () => {
+      window.removeEventListener('scroll', closeMenu)
+    }
+  }, [])
+  
+
   return (
-    <HeaderContainer>
+    <HeaderContainer className={active || userActive ? 'bgDark' : ''}>
       <nav>
         <Logo />
 

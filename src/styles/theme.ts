@@ -1,11 +1,12 @@
-export const themes = {
+export const theme = {
   colors: {
     primary: '#EBBA34',
     secondary: '#FFBB00',
     light: '#FFFFFF',
     dark100: '#101010',
     dark200: '#050505',
-    gray: '#787878',
+    gray100: '#ADADAD',
+    gray200: '#787878',
     success: '#48FF2B',
     error: '#EA4444',
     primaryGradient: 'linear-gradient(180deg, #EBBA34 50%, #FFBB00 50%)',

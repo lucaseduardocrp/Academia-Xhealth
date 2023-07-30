@@ -1,6 +1,10 @@
+import { Container } from './styles';
+
 const Register = () => {
   return (
-    <h1></h1>
+    <Container>
+      
+    </Container>
   )
 }
 

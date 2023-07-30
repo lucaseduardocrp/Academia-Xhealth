@@ -19,6 +19,7 @@ export const Container = styled.a<ButtonProps>`
     border: ${border ? `0.1rem solid ${theme.colors.primary}` : `0.1rem solid transparent`} ;
 
     transition: all .30s ease;
+    z-index: 10;
 
     &:hover{
       background: ${border ? theme.colors.primary : 'transparent'};

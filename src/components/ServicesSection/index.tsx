@@ -3,7 +3,7 @@ import { Title } from '../Title';
 
 import ServiceCards from '../ServiceCards';
 
-export function ServicesSection() {
+const ServicesSection = () => {
   return (
     <Container>
       <Title title='Nossos serviços' subtitle='Nós proporcionamos tudo o que os nossos clientes precisam'/>
@@ -13,3 +13,5 @@ export function ServicesSection() {
     </Container>
   );
 }
+
+export default ServicesSection

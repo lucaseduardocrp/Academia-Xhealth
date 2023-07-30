@@ -5,9 +5,10 @@ export const Container = styled.div`
   width: 100%;
   height: 100vh;
   position: relative; 
-`;
+  `;
 
 export const VideoContainer = styled.div`
+  ${FlexCSS}
   position: absolute;
   right: 0;
   bottom: 0;
@@ -16,6 +17,7 @@ export const VideoContainer = styled.div`
   min-width: 100%;
   min-height: 100%;
   z-index: -10;
+
   
   &::after{
     content: '';
@@ -28,6 +30,7 @@ export const VideoContainer = styled.div`
   }
   
   iframe{
+    ${FlexCSS}
     width: 192rem;
     height: 110rem;
     border: none;

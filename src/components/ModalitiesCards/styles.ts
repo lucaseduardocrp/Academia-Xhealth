@@ -74,7 +74,7 @@ export const Mask = styled.div<ModalitiesProps>`
   ${({alingEnd}) => css`
     position: absolute;
     bottom: 2rem;
-    left: ${alingEnd ? '30rem' : '-20rem'};
+    ${alingEnd ? ' right: -20rem;' : 'left: -20rem;'}
     transform: rotate(${alingEnd ? '270deg' : ''});
 
     width: 38rem;

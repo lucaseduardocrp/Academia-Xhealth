@@ -32,6 +32,7 @@ export const FlexContainer = styled.div`
   ${FlexCSS};
   align-items: end;
   gap: 10rem;
+  padding-bottom: 6rem;
   
   @media (max-width: 90rem){
     flex-wrap: wrap;

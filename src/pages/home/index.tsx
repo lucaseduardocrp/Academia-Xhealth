@@ -5,6 +5,7 @@ import ServicesSection from '../../components/ServicesSection';
 import ModalitiesSection from '../../components/ModalitiesSection';
 import QuestionsSection from '../../components/QuestionsSection';
 import PersonalSection from '../../components/PersonalSection';
+import { FeedbacksSection } from '../../components/FeedbacksSection';
 
 const Hero = () => {
   return (
@@ -13,6 +14,7 @@ const Hero = () => {
       <ServicesSection />
       <ModalitiesSection />
       <PersonalSection />
+      <FeedbacksSection />
       <QuestionsSection />
     </Container>
   )

@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { FlexCSS } from '../../styles/mixins';
+import { FlexCSS } from '../../../styles/mixins';
 
 export const Container = styled.div`
   width: 100%;
@@ -8,7 +8,7 @@ export const Container = styled.div`
   `;
 
 export const VideoContainer = styled.div`
-  ${FlexCSS}
+  ${FlexCSS};
   position: absolute;
   right: 0;
   bottom: 0;

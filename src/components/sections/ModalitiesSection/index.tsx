@@ -1,9 +1,9 @@
-import { Button } from '../Button';
-import ModalitiesCards from '../ModalitiesCards';
-import { Title } from '../Title';
+import { Button } from '../../Button';
+import ModalitiesCards from '../../ModalitiesCards';
+import { Title } from '../../Title';
 import { Container, ModalitiesContainer } from './styles';
 
-const ModalitiesSection = () => {
+export const ModalitiesSection = () => {
   return (
     <Container id='Modalities'>
       <Title title='Modalidades' subtitle='As modalidades que mais geram resultados'/>
@@ -30,5 +30,3 @@ const ModalitiesSection = () => {
     </Container>
   );
 }
-
-export default ModalitiesSection;

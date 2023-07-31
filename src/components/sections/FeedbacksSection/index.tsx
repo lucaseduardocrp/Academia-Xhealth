@@ -1,8 +1,8 @@
-import FeedbacksCard from '../FeedbacksCard';
-import { Title } from '../Title';
+import FeedbacksCard from '../../FeedbacksCard';
+import { Title } from '../../Title';
 import { Container } from './styles';
 
-export function FeedbacksSection() {
+export const FeedbacksSection = () => {
   return (
     <Container>
       <Title title='Nossos clientes' subtitle='O que nossos clientes acham do nosso trabalho'/>
@@ -11,3 +11,4 @@ export function FeedbacksSection() {
     </Container>
   );
 }
+

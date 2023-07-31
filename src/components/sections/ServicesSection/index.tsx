@@ -1,9 +1,9 @@
 import { Container, Grid } from './styles';
-import { Title } from '../Title';
+import { Title } from '../../Title';
 
-import ServiceCards from '../ServiceCards';
+import ServiceCards from '../../ServiceCards';
 
-const ServicesSection = () => {
+export const ServicesSection = () => {
   return (
     <Container id='Service'>
       <Title title='Nossos serviços' subtitle='Nós proporcionamos tudo o que os nossos clientes precisam'/>
@@ -13,5 +13,3 @@ const ServicesSection = () => {
     </Container>
   );
 }
-
-export default ServicesSection

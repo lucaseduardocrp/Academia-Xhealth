@@ -1,8 +1,8 @@
 import { Container, UpContainer, VideoContainer } from './styles';
-import HeroTitle from '../HeroTitle';
-import { SocialMedia } from '../SocialMedia';
+import HeroTitle from '../../HeroTitle';
+import { SocialMedia } from '../../SocialMedia';
 
-export function HeroSection() {
+export const HeroSection = () => {
   return (
     <Container>
       <VideoContainer>
@@ -23,3 +23,4 @@ export function HeroSection() {
     </Container>
   );
 }
+

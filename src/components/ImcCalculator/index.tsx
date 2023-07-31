@@ -3,7 +3,7 @@ import { Container, CalcContainer, FormContainer, InputContainer, Title, ImcResu
 
 type ImcTypes = {
   text: string,
-  nivel: boolean,
+  nivel: boolean | undefined,
 }
 
 export const ImcCalculator = () => {

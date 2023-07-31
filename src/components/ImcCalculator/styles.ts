@@ -2,7 +2,7 @@ import styled, { css } from 'styled-components';
 import { FlexCSS } from '../../styles/mixins';
 
 type ImcTypes = {
-  nivel: boolean,
+  nivel: boolean | undefined,
 }
 
 export const Container = styled.div`

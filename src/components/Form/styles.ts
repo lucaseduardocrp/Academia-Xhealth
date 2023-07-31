@@ -46,8 +46,12 @@ export const Container = styled.div`
         border-radius: 1.2rem;
         border: 0.1rem solid transparent;
         cursor: pointer;
-
         transition: all .30s ease;
+
+        &:disabled{
+          cursor: wait;
+          opacity: 0.6;
+        }
 
         &:hover{
           background: transparent;

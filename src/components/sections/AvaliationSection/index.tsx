@@ -1,11 +1,11 @@
 import { Button } from '../../Button';
 import { ImcCalculator } from '../../ImcCalculator';
 import { Title } from '../../Title';
-import { Container, FlexContainer, RightContainer, Mask } from './styles';
+import { Container, FlexContainer, RightContainer } from './styles';
 
 export const AvaliationSection = () => {
   return (
-    <Container>
+    <Container id='Avaliations'>
       <Title title='Avaliação física' subtitle='Para aqueles que querem obter os melhores resultados'/>
 
       <FlexContainer>

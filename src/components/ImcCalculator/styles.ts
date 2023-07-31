@@ -72,8 +72,8 @@ export const InputContainer = styled.div`
   }
 
   &::before{
-    content: 'cm';
-    left: 14rem;
+    content: 'm';
+    left: 15rem;
   }
 
   @media (max-width: 48rem) {

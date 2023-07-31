@@ -1,5 +1,9 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 import { FlexCSS } from '../../styles/mixins';
+
+type ImcTypes = {
+  nivel: boolean,
+}
 
 export const Container = styled.div`
   ${FlexCSS};
@@ -17,11 +21,13 @@ export const Container = styled.div`
   }
 `;
 
-export const CalcContainer = styled.div`
-  span{
+export const CalcContainer = styled.div``;
+
+export const ImcResultText = styled.span<ImcTypes>`
+   ${({theme, nivel}) => css`
     font-size: var(--base);
-    color: ${({theme}) => theme.colors.success};
-  }
+    color: ${nivel === true ? theme.colors.success : theme.colors.error};
+  `}
 `;
 
 export const FormContainer = styled.form`

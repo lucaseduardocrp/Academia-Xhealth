@@ -1,9 +1,9 @@
 import { FormEvent, useState } from 'react';
-import { Container, CalcContainer, FormContainer, InputContainer, Title } from './styles';
+import { Container, CalcContainer, FormContainer, InputContainer, Title, ImcResultText } from './styles';
 
 type ImcTypes = {
   text: string,
-  nivel: 'green' | 'red',
+  nivel: boolean,
 }
 
 export const ImcCalculator = () => {
@@ -23,12 +23,12 @@ export const ImcCalculator = () => {
       // if(imc >=18.5) return 'Peso normal'
       // if(imc < 18.5) return 'Abaixo do peso'
 
-      if(imc >=39.9) return {text: 'Obesidade grau 3', nivel: 'red'}
-      if(imc >=34.9) return {text: 'Obesidade grau 2', nivel: 'red'}
-      if(imc >=29.9) return {text: 'Obesidade grau 1', nivel: 'red'}
-      if(imc >=24.9) return {text: 'Sobrepeso', nivel: 'green'}
-      if(imc >=18.5) return {text: 'Peso normal', nivel: 'red'}
-      return {text: 'Abaixo do peso', nivel: 'red'}
+      if(imc >=39.9) return {text: 'Obesidade grau 3', nivel: false}
+      if(imc >=34.9) return {text: 'Obesidade grau 2', nivel: false}
+      if(imc >=29.9) return {text: 'Obesidade grau 1', nivel: false}
+      if(imc >=24.9) return {text: 'Sobrepeso', nivel: true}
+      if(imc >=18.5) return {text: 'Peso normal', nivel: true}
+      return {text: 'Abaixo do peso', nivel: false}
     }
 
     const nivelImc = getNivelImc(imc);
@@ -47,7 +47,7 @@ export const ImcCalculator = () => {
         A calculadora do índice de massa corporal (IMC)
         calcula o índice de massa corporal a partir do seu peso e altura
       </p>
-      <CalcContainer>
+      <CalcContainer >
         <FormContainer>
           <InputContainer>
             <input 
@@ -71,7 +71,8 @@ export const ImcCalculator = () => {
           
           <button type='submit' onClick={imcCalc}>Calcular IMC</button>
         </FormContainer>
-        <span>{result?.text}</span>
+
+        <ImcResultText nivel={result?.nivel}>{result?.text}</ImcResultText>
       </CalcContainer>
     </Container>
   );

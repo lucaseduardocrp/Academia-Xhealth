@@ -68,13 +68,13 @@ export const InputContainer = styled.div`
     width: 1rem;
     position: absolute;
     top: 35%;
-    right: 0;
+    right: 0.8rem;
     color: ${({theme}) => theme.colors.gray100};
   }
 
   &::before{
     content: 'm';
-    left: 15rem;
+    left: 14.6rem;
   }
 
   @media (max-width: 48rem) {

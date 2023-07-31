@@ -65,6 +65,7 @@ export const InputContainer = styled.div`
     content: 'kg';
     padding: 0 1rem;
     font-size: var(--sm);
+    width: 1rem;
     position: absolute;
     top: 35%;
     right: 0;

@@ -9,12 +9,6 @@ export const Container = styled.div`
   height: 100%;
   padding-bottom: 2rem;
   border: 0.1rem solid ${({theme}) => theme.colors.gray200};
-  filter: grayscale(100%);       
-  transition: all .20s ease;
-
-  &:hover{
-    filter: grayscale(0);
-  }
 
   .image-mask{
     width: 100%;

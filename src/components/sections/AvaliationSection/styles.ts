@@ -5,6 +5,27 @@ export const Container = styled.section`
   ${FlexCSS};
   flex-direction: column;
   background: ${({theme}) => theme.colors.dark100};
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+
+  &::before, &::after{
+    content: '';
+    position: absolute;
+    top: 8rem;
+    right: -24rem;
+    width: 40rem;
+    height: 40rem;
+    border-radius: 50%;
+    background: ${({theme}) => theme.colors.primary};
+    filter: blur(4rem);
+    opacity: 0.08;
+  }
+
+  &::after{
+    top: 40rem;
+    left: -24rem;
+  }
 `;
 
 export const FlexContainer = styled.div`
@@ -20,6 +41,10 @@ export const FlexContainer = styled.div`
 
 export const RightContainer = styled.div`
   position: relative;
+
+  img{
+    margin-top: -6rem;
+  }
 
   .text-box{
     ${FlexCSS};
@@ -61,3 +86,4 @@ export const RightContainer = styled.div`
     }
   }
 `;
+

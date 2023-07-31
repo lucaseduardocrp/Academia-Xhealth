@@ -1,7 +1,7 @@
 import { Button } from '../../Button';
 import { ImcCalculator } from '../../ImcCalculator';
 import { Title } from '../../Title';
-import { Container, FlexContainer, RightContainer } from './styles';
+import { Container, FlexContainer, RightContainer, Mask } from './styles';
 
 export const AvaliationSection = () => {
   return (

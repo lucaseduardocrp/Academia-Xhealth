@@ -13,13 +13,13 @@ export const ModalitiesSection = () => {
           image='/images/BikeIndoor.png'
           title='BIKE INDOOR'
           emphasis='CLASS'
-          description='Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s.'
+          description='O Bike Indoor ou Spinning é um exercício cardiovascular em bicicletas estacionárias, simulando pedal ao ar livre. Aulas em grupo, treinos intervalados e resistência ajustável são características-chave. Popular para melhorar resistência física.'
         />
         <ModalitiesCards 
           image='/images/Bodybuilder2.png'
           title='MUSCULAÇÃO'
           emphasis='XHEALTH'
-          description='Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s.'
+          description='Musculação é um exercício de força com pesos ou máquinas para fortalecer músculos, melhorar a aparência, a saúde e aprimorar a composição corporal.'
           alingEnd
         />
         <div className='btn-container'>

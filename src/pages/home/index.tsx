@@ -9,6 +9,7 @@ const Hero = () => {
       <Section.ModalitiesSection />
       <Section.PersonalSection />
       <Section.AvaliationSection />
+      <Section.PlansSection />
       <Section.FeedbacksSection />
       <Section.QuestionsSection />
     </Container>

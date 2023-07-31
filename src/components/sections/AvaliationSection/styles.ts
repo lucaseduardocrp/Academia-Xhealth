@@ -19,7 +19,7 @@ export const Container = styled.section`
     border-radius: 50%;
     background: ${({theme}) => theme.colors.primary};
     filter: blur(4rem);
-    opacity: 0.08;
+    opacity: 0.1;
   }
 
   &::after{
@@ -76,13 +76,13 @@ export const RightContainer = styled.div`
 
   @media (max-width: 90rem){
     img{
-      width: 37rem;
+      width: 34rem;
       object-fit: contain;
     }
 
     .text-box{
       bottom: -6rem;
-      left: 0.6rem;
+      left: -1rem;
     }
   }
 `;

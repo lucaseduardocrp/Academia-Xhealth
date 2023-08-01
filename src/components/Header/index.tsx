@@ -38,7 +38,7 @@ const Header = () => {
   
 
   return (
-    <HeaderContainer className={active || userActive ? 'bgDark' : ''}>
+    <HeaderContainer className={active || userActive ? 'bgDark' : ''} id='header'>
       <nav>
         <Logo />
 

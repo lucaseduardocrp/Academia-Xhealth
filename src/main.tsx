@@ -8,12 +8,15 @@ import { theme } from './styles/theme.ts'
 import router from './App.tsx'
 import { RouterProvider } from 'react-router-dom'
 import { ToastContainer } from 'react-toastify'
+import AuthProvider from './context/AuthContext.tsx'
 
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <ThemeProvider theme={theme}>
       <React.StrictMode>
-        <RouterProvider router={router} />
+        <AuthProvider>
+          <RouterProvider router={router} />
+        </AuthProvider>
       </React.StrictMode>
     
       <GlobalStyles />

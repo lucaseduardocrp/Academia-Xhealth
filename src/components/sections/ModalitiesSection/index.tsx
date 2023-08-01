@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { Button } from '../../Button';
 import ModalitiesCards from '../../ModalitiesCards';
 import { Title } from '../../Title';
@@ -23,7 +24,11 @@ export const ModalitiesSection = () => {
           alingEnd
         />
         <div className='btn-container'>
-          <Button href='#' border>Ver todas modalidades</Button>
+          <Link to='/modalities'>
+            <Button href='#' border>
+                Ver todas modalidades
+            </Button>
+          </Link>
         </div>
       </ModalitiesContainer>
       

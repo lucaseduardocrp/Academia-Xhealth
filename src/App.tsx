@@ -4,6 +4,7 @@ import Register from './pages/register';
 import Login from './pages/login';
 import Home from './pages/home';
 import Plans from './pages/plans';
+import Modalities from './pages/Modalities';
 
 const router = createBrowserRouter([
   {
@@ -16,6 +17,10 @@ const router = createBrowserRouter([
       {
         path: '/plans',
         element: <Plans />,
+      },
+      {
+        path: '/modalities',
+        element: <Modalities />,
       },
     ]
   },

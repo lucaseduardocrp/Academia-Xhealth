@@ -1,5 +1,9 @@
 import styled from 'styled-components';
+import { FlexCSS } from '../../styles/mixins';
 
 export const Container = styled.section`
-  height: 100vh;
+  ${FlexCSS};
+  flex-direction: column;
+  gap: 6rem;
 `;
+

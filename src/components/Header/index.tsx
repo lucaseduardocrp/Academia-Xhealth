@@ -8,6 +8,7 @@ import { MenuIcon } from '../CustomIcons/MenuIcon';
 import Links from '../Links';
 import Logo from '../Logo';
 import User from '../User';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   const [active, setActive] = useState(false)
@@ -59,7 +60,9 @@ const Header = () => {
               <Links href='#'>Consultar plano</Links>
               <Links href='#'>Ficha de treino</Links>
               <Links href='#'>Plano alimentar</Links>
-              <Links href='#'>Sair</Links>
+              <Links href='#'>
+                <Link to='/login'>Sair</Link>
+              </Links>
             </UserDropdown>
           }
 

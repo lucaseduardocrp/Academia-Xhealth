@@ -10,6 +10,7 @@ interface AuthProviderProps {
 type AuthContextData = {
   signed: boolean,
   loadingAuth: boolean,
+  name: string | null | undefined,
 }
 
 interface UserProps {
@@ -53,6 +54,7 @@ const AuthProvider = ({children}: AuthProviderProps) => {
     <AuthContext.Provider value={{ 
       signed: !!user,
       loadingAuth,
+      name: user?.name,
     }}>
       {children}
     </AuthContext.Provider>

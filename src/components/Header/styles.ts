@@ -70,7 +70,7 @@ export const UserDropdown = styled.ul`
   gap: 4rem;
   top: 4rem;
   left: -2rem;
-  padding: 4rem 2rem;
+  padding: 3rem 2rem;
   background: ${({theme}) => theme.colors.dark100};
   border-bottom: 0.1rem solid ${({theme}) => theme.colors.primary};
   z-index: 10;

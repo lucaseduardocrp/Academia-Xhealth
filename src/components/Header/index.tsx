@@ -57,7 +57,11 @@ const Header = () => {
 
           {userActive &&
             <UserDropdown>
-              <Links href='#'>Consultar plano</Links>
+              <Links href='#'>
+                <Link to='/plans'>
+                  Consultar plano
+                </Link>
+              </Links>
               <Links href='#'>Ficha de treino</Links>
               <Links href='#'>Plano alimentar</Links>
               <Links href='#'>

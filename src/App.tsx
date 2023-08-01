@@ -5,6 +5,7 @@ import Login from './pages/login';
 import Home from './pages/home';
 import Plans from './pages/plans';
 import Modalities from './pages/Modalities';
+import Training from './pages/training';
 
 const router = createBrowserRouter([
   {
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
       {
         path: '/modalities',
         element: <Modalities />,
+      },
+      {
+        path: '/training',
+        element: <Training />,
       },
     ]
   },

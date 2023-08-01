@@ -27,6 +27,11 @@ const Container = styled.div`
       transform: translateX(0.6rem);
     }
   }
+
+  @media (max-width: 48rem){
+    bottom: 1rem;
+    right: 1rem;
+  }
 `;
 
 const Layout = () => {

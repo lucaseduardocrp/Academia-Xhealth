@@ -3,6 +3,8 @@ import emailjs from '@emailjs/browser';
 import { FormEvent, useRef, useState } from "react";
 import { Container } from "./styles";
 
+import { toast } from 'react-toastify';
+
 export default function Form() {
   const formRef = useRef<HTMLFormElement>(null)
   const [loading, setLoading] = useState(false)
@@ -19,10 +21,12 @@ export default function Form() {
   async function sendEmail(event: FormEvent){
     event.preventDefault();
     setLoading(true)
+    toast.success('Mensagem enviada com sucesso', {
+      icon: false,
+    })
 
     await emailjs.send('service_47t0keg', 'template_rgqho2i', dataForm, 'CVXQlpJ8y3ni4Rsms')
     .then(() => {
-      alert('Email enviado com sucesso');
 
       setLoading(false)
     })

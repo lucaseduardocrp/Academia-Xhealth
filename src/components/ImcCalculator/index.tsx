@@ -16,18 +16,11 @@ export const ImcCalculator = () => {
     const imc = +weight / (+height * +height);
     
     const getNivelImc = (imc: number):ImcTypes => {
-      // if(imc >=39.9) return 'Obesidade grau 3'
-      // if(imc >=34.9) return 'Obesidade grau 2'
-      // if(imc >=29.9) return 'Obesidade grau 1'
-      // if(imc >=24.9) return 'Sobrepeso'
-      // if(imc >=18.5) return 'Peso normal'
-      // if(imc < 18.5) return 'Abaixo do peso'
-
       if(imc >=39.9) return {text: 'Obesidade grau 3', nivel: false}
       if(imc >=34.9) return {text: 'Obesidade grau 2', nivel: false}
       if(imc >=29.9) return {text: 'Obesidade grau 1', nivel: false}
       if(imc >=24.9) return {text: 'Sobrepeso', nivel: true}
-      if(imc >=18.5) return {text: 'Peso normal', nivel: true}
+      if(imc >=18.5) return {text: 'Peso normal', nivel: true}   
       return {text: 'Abaixo do peso', nivel: false}
     }
 
@@ -49,7 +42,7 @@ export const ImcCalculator = () => {
       </p>
       <CalcContainer >
         <FormContainer>
-          <InputContainer>
+          <InputContainer autoComplete='off'>
             <input 
               type="text" 
               name="height" 

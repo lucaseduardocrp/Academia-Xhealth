@@ -52,7 +52,7 @@ export const FormContainer = styled.form`
   }
 `;
 
-export const InputContainer = styled.div`
+export const InputContainer = styled.form`
   width: 100%;
   ${FlexCSS};
   gap: 1rem;

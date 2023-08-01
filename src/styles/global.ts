@@ -1,4 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
+import 'react-toastify/dist/ReactToastify.css';
 
 const GlobalStyles = createGlobalStyle`
   :root{
@@ -39,6 +40,14 @@ const GlobalStyles = createGlobalStyle`
     width: 100%;
     height: 100%;
     padding: 12.6rem max(calc((100% - 144rem) / 2), 2rem);
+  }
+
+  .Toastify .Toastify__toast-container .Toastify__toast--success{
+    border: 0.1rem solid ${({theme}) => theme.colors.gray200};
+    background: ${({theme}) => theme.colors.dark100};
+    color: ${({theme}) => theme.colors.light};
+    font-size: var(--sm);
+    font-weight: 700;
   }
 
   @media (max-width: 48rem) {

@@ -24,5 +24,13 @@ As cores principais da academia são Preto e Amarelo, por isso gostaria que a p�
 -- 
 🤓  Informações adicionais:
 
--As tecnologias utilizadas: React.JS, Vite, Styled-Components, React-Router-Dom, Firebase e Figma. 
+-As tecnologias utilizadas:
 
+<div style="display: inline_block"><br>
+  <img align="center" height="30" width="40" alt="react" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
+  <img align="center" height="30" width="40" alt="typescript" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg">
+  <img align="center" height="30" width="40" alt="vite" src="https://www.svgrepo.com/show/354521/vitejs.svg">
+  <img align="center" height="30" width="40" alt="styled components" src="https://blog.nextinnovation.kr/assets/Styled_Components/logo.png">
+  <img align="center" height="30" width="40" alt="git" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg">
+  <img align="center" height="30" width="40" alt="figma" src="https://www.svgrepo.com/show/452202/figma.svg">
+</div>

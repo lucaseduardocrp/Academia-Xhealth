@@ -2,42 +2,39 @@
 
 <img alt="Projeto XHealth" src="./public/Mockup-Xhealth.png" />
 
-<h2>Projeto realizado para um hackathon na OneBitCode, o tema proposto foi referente a um cliente que precisasse de um site para sua academia.</h2>
+<h2>This project is to OneBitCode's Hackathon, the propose theme is about a need of a client gym website.</h2>
 
-<h3>O que foi aplicado no projeto?</h3>
+<h3>What were aplicated in this project?</h3>
 
 <ul>
-  <li>Sistema de cadastro</li>
-  <li>Sistema de login</li>
-  <li>Página principal</li>
-  <li>Rotas para membros logados</li>
-  <li>Fichas de treino</li>
-  <li>Planos alimentares para baixar em PDF</li>
+  <li>Registration system</li>
+  <li>Login system</li>
+  <li>Main page</li>
+  <li>Routes for logged in members</li>
+  <li>Training sheet</li>
+  <li>Food plans to download PDF</li>
 </ul>
 
-<h3>👨‍💻 Requisitos do Cliente:</h3> <br>
-Eu tenho uma academia que possui diversas modalidades, como: Musculação, lutas, danças, HIIT, bike indoor, Funcional, Jump e outras.
+<h3>👨‍💻 Client Request:</h3> <br>
 
-Gostaria de ter uma página atrativa para os clientes e que mostrasse todas as minhas modalidades para que eles conhecessem um pouco melhor o que temos a oferecer.
+I have a gym that has several modalities, such as: Bodybuilding, fights, dances, HIIT, indoor bike, Functional, Jump and others.
+I would like to have a page that is attractive to customers and that shows all my modalities so that they get to know a little better what we have to offer.
 
-A página deve mostrar depoimentos de alunos que passaram pela academia e que tiveram resultados. Além disso, também deve mostrar os nossos instrutores que são profissionais e atletas bem reconhecidos no mercado.
+The page should show testimonials from students who went through the academy and had results. In addition, it must also show our instructors that they are professionals and well-recognized athletes in the market.
 
-Outros serviços que oferecemos são:
+Other services we offer are:
 
-Avaliação física com bioimpedância e montagem de treino personalizado,
-Fisioterapia para tratamento e prevenção de lesões e
-Acompanhamento com personal trainer.
+Physical assessment with bioimpedance and personalized training, Physiotherapy for treatment and prevention of injuries and Follow-up with a personal trainer.
 
-Esses serviços podem ser contratados individualmente e não estão inclusos na mensalidade.
+These services can be contracted individually and are not included in the monthly fee.
 
-Através dessa página, os possíveis clientes devem poder enviar mensagens para tirar dúvidas e os alunos devem poder acessar as informações do cadastro e ver as informações do seu treino.
+Through this page, potential customers should be able to send messages to clear up doubts and students should be able to access registration information and view their training information.
 
-As cores principais da academia são Preto e Amarelo, por isso gostaria que a página seguisse esse padrão de cores. Um detalhe importante é que o design precisa ser moderno, elegante e que demonstre toda a qualidade dos serviços que oferecemos. Nossos equipamentos são todos novos e temos profissionais renomados no mercado para orientar os alunos em todas as atividades. 
-
+The main colors of the academy are Black and Yellow, so I would like the page to follow this color pattern. An important detail is that the design needs to be modern, elegant and demonstrate all the quality of the services we offer. Our equipment is all new and we have renowned professionals in the market to guide students in all activities.
 -- 
-<h3>🤓  Informações adicionais:</h3>
+<h3>🤓 Extra Informations:</h3>
 
-<h4>-As tecnologias utilizadas:</h4>
+<h4>-The utilize technologies:</h4>
 
 <div style="display: flex"><br>
   <img align="center" height="30" width="40" alt="react" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">

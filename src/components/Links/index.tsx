@@ -3,12 +3,13 @@ import { Container } from './styles'
 
 type Props = {
   href: string,
-  children: ReactNode
+  children: ReactNode,
+  onClick?: () => void,
 }
 
-const Links = ({href, children}: Props) => {
+const Links = ({href, children, onClick}: Props) => {
   return (
-    <Container>
+    <Container onClick={onClick}>
       <a href={href}>
         {children}
       </a>

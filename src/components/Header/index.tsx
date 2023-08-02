@@ -8,7 +8,7 @@ import { MenuIcon } from '../CustomIcons/MenuIcon';
 import Links from '../Links';
 import Logo from '../Logo';
 import User from '../User';
-import { Link, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 const Header = () => {
   const [active, setActive] = useState(false)
@@ -16,8 +16,8 @@ const Header = () => {
 
   const navigate = useNavigate();
 
-  const handleNavigate = () => {
-    navigate('/', {replace: true})
+  const handleNavigate = (route: string) => {
+    navigate(route, {replace: true})
   }
 
 
@@ -50,13 +50,13 @@ const Header = () => {
         <Logo />
 
         <ul className={active ? 'navbar' : 'navbar close'}>
-          <Links onClick={handleNavigate} href='#'>Início</Links>
-          <Links onClick={handleNavigate} href='#Service'>Serviços</Links>
-          <Links onClick={handleNavigate} href='#Modalities'>Modalidades</Links>
-          <Links onClick={handleNavigate} href='#Personal'>Personais</Links>
-          <Links onClick={handleNavigate} href='#Avaliations'>Avaliações</Links>
-          <Links onClick={handleNavigate} href='#Plans'>Planos</Links>
-          <Links onClick={handleNavigate} href='#Questions'>Contatos</Links>
+          <Links onClick={() => handleNavigate('/')} href='#'>Início</Links>
+          <Links onClick={() => handleNavigate('/')} href='#Service'>Serviços</Links>
+          <Links onClick={() => handleNavigate('/')} href='#Modalities'>Modalidades</Links>
+          <Links onClick={() => handleNavigate('/')} href='#Personal'>Personais</Links>
+          <Links onClick={() => handleNavigate('/')} href='#Avaliations'>Avaliações</Links>
+          <Links onClick={() => handleNavigate('/')} href='#Plans'>Planos</Links>
+          <Links onClick={() => handleNavigate('/')} href='#Questions'>Contatos</Links>
         </ul>
 
         <RightContainer>
@@ -64,22 +64,10 @@ const Header = () => {
 
           {userActive &&
             <UserDropdown>
-              <Links href='#'>
-                <Link to='/plans'>
-                  Consultar plano
-                </Link>
-              </Links>
-              <Links href='#'>
-                <Link to='/training'>Ficha de treino</Link>
-              </Links>
-              <Links href='#'>
-                <Link to='/diet'>
-                  Plano alimentar
-                </Link>  
-              </Links>
-              <Links href='#'>
-                <Link to='/login'>Sair</Link>
-              </Links>
+              <Links href='#' onClick={() => handleNavigate('/plans')}>Consultar plano</Links>
+              <Links href='#' onClick={() => handleNavigate('/training')}>Ficha de treino</Links>
+              <Links href='#' onClick={() => handleNavigate('/diet')}>Plano alimentar</Links>
+              <Links href='#' onClick={() => handleNavigate('/login')}>Sair</Links>
             </UserDropdown>
           }
 

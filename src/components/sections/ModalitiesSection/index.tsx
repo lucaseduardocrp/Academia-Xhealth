@@ -1,10 +1,12 @@
-import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { Button } from '../../Button';
 import ModalitiesCards from '../../ModalitiesCards';
 import { Title } from '../../Title';
 import { Container, ModalitiesContainer } from './styles';
 
 export const ModalitiesSection = () => {
+  const navigate = useNavigate();
+
   return (
     <Container id='Modalities'>
       <Title title='Modalidades' subtitle='As modalidades que mais geram resultados'/>
@@ -24,11 +26,9 @@ export const ModalitiesSection = () => {
           alingend={true}
         />
         <div className='btn-container'>
-          <Link to='/modalities'>
-            <Button href='#' border={true}>
-                Ver todas modalidades
-            </Button>
-          </Link>
+          <Button href='#' border={true} onClick={() => navigate('/modalities', {replace: true})}>
+            Ver todas modalidades
+          </Button>
         </div>
       </ModalitiesContainer>
       

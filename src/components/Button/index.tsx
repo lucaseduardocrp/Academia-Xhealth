@@ -6,11 +6,12 @@ export interface ButtonProps {
   target?: string,
   border?: boolean,
   full?: boolean,
+  onClick?: () => void,
 } 
 
-export function Button({ children, href, target, border, full }: ButtonProps) {
+export function Button({ children, href, target, border, full, onClick }: ButtonProps) {
   return (
-    <Container href={href} target={target} border={border} full={full}>
+    <Container href={href} target={target} border={border} full={full} onClick={onClick}>
       {children}
     </Container>
   );

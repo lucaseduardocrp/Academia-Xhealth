@@ -2,7 +2,7 @@
 
 <h2>Projeto realizado para um hackathon na OneBitCode, o tema proposto foi referente a um cliente que precisasse de um site para sua academia.</h2>
 
-👨‍💻 <h3>Requisitos do Cliente:</h3> <br>
+<h3>👨‍💻 Requisitos do Cliente:</h3> <br>
 Eu tenho uma academia que possui diversas modalidades, como: Musculação, lutas, danças, HIIT, bike indoor, Funcional, Jump e outras.
 
 Gostaria de ter uma página atrativa para os clientes e que mostrasse todas as minhas modalidades para que eles conhecessem um pouco melhor o que temos a oferecer.

@@ -29,6 +29,7 @@ Physical assessment with bioimpedance and personalized training, Physiotherapy f
 These services can be contracted individually and are not included in the monthly fee.
 
 Through this page, potential customers should be able to send messages to clear up doubts and students should be able to access registration information and view their training information.
+
 The main colors of the academy are Black and Yellow, so I would like the page to follow this color pattern. An important detail is that the design needs to be modern, elegant and demonstrate all the quality of the services we offer. Our equipment is all new and we have renowned professionals in the market to guide students in all activities.
 
 -- 

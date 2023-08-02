@@ -33,7 +33,7 @@ export const HeaderContainer = styled.header`
         padding: 4rem;
         background: ${({theme}) => theme.colors.dark200};
         border-bottom: 0.1rem solid ${({theme}) => theme.colors.primary};
-        z-index: 10;
+        z-index: 1000;
       }
       .close{
         display: none;
@@ -73,7 +73,7 @@ export const UserDropdown = styled.ul`
   padding: 3rem 2rem;
   background: ${({theme}) => theme.colors.dark100};
   border-bottom: 0.1rem solid ${({theme}) => theme.colors.primary};
-  z-index: 10;
+  z-index: 1000;
   
   @media (max-width: 64rem) {
     width: 100%;

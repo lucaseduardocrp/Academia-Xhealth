@@ -13,7 +13,7 @@ const Diet = () => {
           <Card>
             <p>{item.title}</p>
 
-            <Button href={item.pdf}>Baixar PDF</Button>
+            <Button href={item.pdf} target='blank'>Baixar PDF</Button>
           </Card>
         )}
       </FlexContainer>

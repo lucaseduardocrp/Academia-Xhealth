@@ -1,27 +1,28 @@
-# React + TypeScript + Vite
+# Academia XHealth
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto realizado para um hackathon na OneBitCode, o tema proposto foi referente a um cliente que precisasse de um site para sua academia.
 
-Currently, two official plugins are available:
+👨‍💻 Requisitos do Cliente: <br>
+Eu tenho uma academia que possui diversas modalidades, como: Musculação, lutas, danças, HIIT, bike indoor, Funcional, Jump e outras.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Gostaria de ter uma página atrativa para os clientes e que mostrasse todas as minhas modalidades para que eles conhecessem um pouco melhor o que temos a oferecer.
 
-## Expanding the ESLint configuration
+A página deve mostrar depoimentos de alunos que passaram pela academia e que tiveram resultados. Além disso, também deve mostrar os nossos instrutores que são profissionais e atletas bem reconhecidos no mercado.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Outros serviços que oferecemos são:
 
-- Configure the top-level `parserOptions` property like this:
+Avaliação física com bioimpedância e montagem de treino personalizado,
+Fisioterapia para tratamento e prevenção de lesões e
+Acompanhamento com personal trainer.
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+Esses serviços podem ser contratados individualmente e não estão inclusos na mensalidade.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Através dessa página, os possíveis clientes devem poder enviar mensagens para tirar dúvidas e os alunos devem poder acessar as informações do cadastro e ver as informações do seu treino.
+
+As cores principais da academia são Preto e Amarelo, por isso gostaria que a página seguisse esse padrão de cores. Um detalhe importante é que o design precisa ser moderno, elegante e que demonstre toda a qualidade dos serviços que oferecemos. Nossos equipamentos são todos novos e temos profissionais renomados no mercado para orientar os alunos em todas as atividades. 
+
+-- 
+🤓  Informações adicionais:
+
+-As tecnologias utilizadas: React.JS, Vite, Styled-Components, React-Router-Dom, Firebase e Figma. 
+

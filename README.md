@@ -4,7 +4,7 @@
 
 <h2>Projeto realizado para um hackathon na OneBitCode, o tema proposto foi referente a um cliente que precisasse de um site para sua academia.</h2>
 
-<h3>O que foi aplixado no projeto?</h3>
+<h3>O que foi aplicado no projeto?</h3>
 
 <ul>
   <li>Sistema de cadastro</li>

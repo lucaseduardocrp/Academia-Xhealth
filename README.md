@@ -32,5 +32,7 @@ As cores principais da academia s√£o Preto e Amarelo, por isso gostaria que a p√
   <img align="center" height="30" width="40" alt="vite" src="https://www.svgrepo.com/show/354521/vitejs.svg">
   <img align="center" height="30" width="40" alt="styled components" src="https://blog.nextinnovation.kr/assets/Styled_Components/logo.png">
   <img align="center" height="30" width="40" alt="git" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg">
+  <img align="center" height="30" width="40" alt="react-router" src="https://www.svgrepo.com/show/354262/react-router.svg">
+  <img align="center" height="30" width="40" alt="firebase" src="https://www.svgrepo.com/show/303670/firebase-1-logo.svg">
   <img align="center" height="30" width="40" alt="figma" src="https://www.svgrepo.com/show/452202/figma.svg">
 </div>

@@ -65,7 +65,11 @@ const Header = () => {
               <Links href='#'>
                 <Link to='/training'>Ficha de treino</Link>
               </Links>
-              <Links href='#'>Plano alimentar</Links>
+              <Links href='#'>
+                <Link to='/diet'>
+                  Plano alimentar
+                </Link>  
+              </Links>
               <Links href='#'>
                 <Link to='/login'>Sair</Link>
               </Links>

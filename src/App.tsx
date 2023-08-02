@@ -6,6 +6,7 @@ import Home from './pages/home';
 import Plans from './pages/plans';
 import Modalities from './pages/Modalities';
 import Training from './pages/training';
+import Diet from './pages/Diet';
 
 const router = createBrowserRouter([
   {
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
       {
         path: '/training',
         element: <Training />,
+      },
+      {
+        path: '/diet',
+        element: <Diet />,
       },
     ]
   },

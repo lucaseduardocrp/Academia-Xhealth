@@ -13,7 +13,7 @@ export const modalitiesInfoOne = [
     title: 'Musculação',
     emphasis: 'XHealth',
     description: 'Musculação é um exercício de força com pesos ou máquinas para fortalecer músculos, melhorar a aparência, a saúde e aprimorar a composição corporal.',
-    alingEnd: false
+    alingEnd: '',
   },
   {
     id: 3,
@@ -29,7 +29,7 @@ export const modalitiesInfoOne = [
     title: 'Jump',
     emphasis: 'class',
     description: 'Jump é um exercício aeróbico realizado em um trampolim. Melhora o condicionamento, queima calorias, fortalece músculos e proporciona benefícios emocionais. Consulte um profissional de saúde antes de começar.',
-    alingEnd: false
+    alingEnd: '',
   },
   {
     id: 5,
@@ -45,6 +45,6 @@ export const modalitiesInfoOne = [
     title: 'Funcional',
     emphasis: 'XHealth',
     description: 'Treinamento Funcional: Exercícios com movimentos naturais para melhorar força, flexibilidade e equilíbrio. Adapta-se a diferentes níveis de condicionamento e beneficia a funcionalidade do corpo. Consulte um profissional de saúde antes de iniciar.',
-    alingEnd: false
+    alingEnd: '',
   },
 ]

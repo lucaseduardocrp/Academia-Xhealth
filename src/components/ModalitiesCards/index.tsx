@@ -1,12 +1,12 @@
 import { Button } from '../Button';
 import { Container, TextContainer, Mask } from './styles';
 
-type ModalitiesProps = {
+export type ModalitiesProps = {
   image: string,
   title: string,
   emphasis: string,
   description: string,
-  alingend?: boolean,
+  alingend?: boolean | undefined,
 }
 
 const ModalitiesCards = ({image, title, emphasis, description, alingend}: ModalitiesProps) => {
@@ -20,7 +20,7 @@ const ModalitiesCards = ({image, title, emphasis, description, alingend}: Modali
         <p>
           {description}
         </p>
-        <Button href='#' border >Horários</Button>
+        <Button href='#' border={true}>Horários</Button>
       </TextContainer>
     </Container>
   )

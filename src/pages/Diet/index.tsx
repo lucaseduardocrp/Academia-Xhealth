@@ -9,8 +9,8 @@ const Diet = () => {
       <Title title='Plano alimentar' subtitle='Mantenha um acompanhamento constante com seu nutricionista' />
 
       <FlexContainer>
-        {dietInfo.map((item) => 
-          <Card key={item.title}>
+        {dietInfo.map((item, key) => 
+          <Card key={key + item.title}>
             <p>{item.title}</p>
 
             <Button href={item.pdf} target='blank'>Baixar PDF</Button>

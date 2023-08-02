@@ -6,7 +6,7 @@ export type ModalitiesProps = {
   title: string,
   emphasis: string,
   description: string,
-  alingend?: boolean | undefined,
+  alingend?: boolean | undefined | string,
 }
 
 const ModalitiesCards = ({image, title, emphasis, description, alingend}: ModalitiesProps) => {

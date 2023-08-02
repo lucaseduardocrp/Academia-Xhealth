@@ -2,7 +2,7 @@ import styled, { css } from 'styled-components';
 import { FlexCSS } from '../../styles/mixins';
 
 type ModalitiesProps = {
-  alingend?: boolean, 
+  alingend?: boolean | undefined | string, 
 }
 
 export const Container = styled.div`

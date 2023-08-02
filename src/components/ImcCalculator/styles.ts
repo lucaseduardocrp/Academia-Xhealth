@@ -30,7 +30,7 @@ export const ImcResultText = styled.span<ImcTypes>`
   `}
 `;
 
-export const FormContainer = styled.form`
+export const FormContainer = styled.div`
   button{
     width: 100%;
     padding: 1rem;

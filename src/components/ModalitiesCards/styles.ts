@@ -2,7 +2,7 @@ import styled, { css } from 'styled-components';
 import { FlexCSS } from '../../styles/mixins';
 
 type ModalitiesProps = {
-  alingEnd?: boolean, 
+  alingend?: boolean, 
 }
 
 export const Container = styled.div`
@@ -35,9 +35,9 @@ export const Container = styled.div`
 `;
 
 export const TextContainer = styled.div<ModalitiesProps>`
-  ${({theme, alingEnd}) => css`
+  ${({theme, alingend}) => css`
     display: flex;
-    align-items: ${alingEnd ? 'end' : 'start' };
+    align-items: ${alingend ? 'end' : 'start' };
     justify-content: start;
     flex-direction: column;
     gap: 2.2rem;
@@ -60,7 +60,7 @@ export const TextContainer = styled.div<ModalitiesProps>`
       font-size: var(--base);
       color: ${theme.colors.gray100};
       line-height: 1.8;
-      text-align: ${alingEnd ? 'end' : 'start'};
+      text-align: ${alingend ? 'end' : 'start'};
     }
 
     @media (max-width: 48rem){
@@ -70,11 +70,11 @@ export const TextContainer = styled.div<ModalitiesProps>`
 `;
 
 export const Mask = styled.div<ModalitiesProps>`
-  ${({alingEnd}) => css`
+  ${({alingend}) => css`
     position: absolute;
     bottom: 2rem;
-    ${alingEnd ? ' right: -20rem;' : 'left: -20rem;'}
-    transform: rotate(${alingEnd ? '270deg' : ''});
+    ${alingend ? ' right: -20rem;' : 'left: -20rem;'}
+    transform: rotate(${alingend ? '270deg' : ''});
 
     width: 38rem;
     height: 100%;

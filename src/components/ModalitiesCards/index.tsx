@@ -6,16 +6,16 @@ type ModalitiesProps = {
   title: string,
   emphasis: string,
   description: string,
-  alingEnd?: boolean,
+  alingend?: boolean,
 }
 
-const ModalitiesCards = ({image, title, emphasis, description, alingEnd}: ModalitiesProps) => {
+const ModalitiesCards = ({image, title, emphasis, description, alingend}: ModalitiesProps) => {
   return (
     <Container>
       <img src={image} alt={title} />
       
-      <TextContainer alingEnd={alingEnd}>
-        <Mask alingEnd={alingEnd}></Mask>
+      <TextContainer alingend={alingend}>
+        <Mask alingend={alingend}></Mask>
         <h4>{title} <b>{emphasis}</b></h4>
         <p>
           {description}

@@ -14,7 +14,7 @@ const Modalities = () => {
           emphasis={item.emphasis}
           description={item.description}
           image={item.image}
-          alingEnd={item.alingEnd}
+          alingend={item.alingEnd}
           key={item.id}
         />
       )}

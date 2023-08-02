@@ -5,9 +5,9 @@ import { Container, TextContent, ButtonContainer } from './styles';
 const ServiceCards = () => {
   return (
     <>
-      {serviceCardsInfo.map((item) => 
-      <Container>
-        <TextContent key={item.title}>
+      {serviceCardsInfo.map((item, key) => 
+      <Container key={key + item.title}>
+        <TextContent>
           <img src={item.image} alt={item.title} />
           <h4>{item.title}</h4>
           <p>{item.description}</p>

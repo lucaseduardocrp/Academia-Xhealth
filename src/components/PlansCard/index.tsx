@@ -5,15 +5,15 @@ import { Container, ListContainer } from './styles';
 const PlansCard = () => {
   return (
     <>
-      {plansInfo.map((item) => 
-        <Container key={item.title}>
+      {plansInfo.map((item, key) => 
+        <Container key={key + item.title}>
           <h4>{item.title}</h4>
           <h5>{item.price}</h5>
 
           <ListContainer>
             <ul>
-              {item.list.map((listItem) => 
-                <li>
+              {item.list.map((listItem, key) => 
+                <li key={key + listItem.benefits}>
                   <img src="/assets/CheckIcon.svg" alt={listItem.benefits} />
                   {listItem.benefits}
                 </li>

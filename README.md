@@ -1,6 +1,19 @@
 # <h1>Academia XHealth</h1>
 
+<img alt="Projeto XHealth" src="./public/Mockup-Xhealth.png" />
+
 <h2>Projeto realizado para um hackathon na OneBitCode, o tema proposto foi referente a um cliente que precisasse de um site para sua academia.</h2>
+
+<h3>O que foi aplixado no projeto?</h3>
+
+<ul>
+  <li>Sistema de cadastro</li>
+  <li>Sistema de login</li>
+  <li>Página principal</li>
+  <li>Rotas para membros logados</li>
+  <li>Fichas de treino</li>
+  <li>Planos alimentares para baixar em PDF</li>
+</ul>
 
 <h3>👨‍💻 Requisitos do Cliente:</h3> <br>
 Eu tenho uma academia que possui diversas modalidades, como: Musculação, lutas, danças, HIIT, bike indoor, Funcional, Jump e outras.
@@ -24,9 +37,9 @@ As cores principais da academia são Preto e Amarelo, por isso gostaria que a p�
 -- 
 <h3>🤓  Informações adicionais:</h3>
 
--As tecnologias utilizadas:
+<h4>-As tecnologias utilizadas:</h4>
 
-<div style="display: inline_block"><br>
+<div style="display: flex"><br>
   <img align="center" height="30" width="40" alt="react" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
   <img align="center" height="30" width="40" alt="typescript" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg">
   <img align="center" height="30" width="40" alt="vite" src="https://www.svgrepo.com/show/354521/vitejs.svg">

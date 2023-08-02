@@ -1,6 +1,6 @@
-# Academia XHealth
+# <h1>Academia XHealth</h1>
 
-Projeto realizado para um hackathon na OneBitCode, o tema proposto foi referente a um cliente que precisasse de um site para sua academia.
+<h2>Projeto realizado para um hackathon na OneBitCode, o tema proposto foi referente a um cliente que precisasse de um site para sua academia.</h2>
 
 👨‍💻 Requisitos do Cliente: <br>
 Eu tenho uma academia que possui diversas modalidades, como: Musculação, lutas, danças, HIIT, bike indoor, Funcional, Jump e outras.

@@ -10,7 +10,7 @@ const Diet = () => {
 
       <FlexContainer>
         {dietInfo.map((item) => 
-          <Card>
+          <Card key={item.title}>
             <p>{item.title}</p>
 
             <Button href={item.pdf} target='blank'>Baixar PDF</Button>

@@ -6,7 +6,7 @@ const PlansCard = () => {
   return (
     <>
       {plansInfo.map((item) => 
-        <Container>
+        <Container key={item.title}>
           <h4>{item.title}</h4>
           <h5>{item.price}</h5>
 

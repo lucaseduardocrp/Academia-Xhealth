@@ -24,7 +24,7 @@ const Training = () => {
       <CarouselContainer>
         <Carousel ref={carousel} >
           {trainingInfo.map((item) => 
-            <Table>
+            <Table key={item.training}>
               <thead>
                 <tr>
                   <th colSpan={2}>{item.training}</th>
@@ -40,7 +40,7 @@ const Training = () => {
                   <tr>
                     <td colSpan={2} data-label='4 x 15'>{i.exercise }</td>
                     
-                    {item.series.map((i) => <td className='series'>{i.serie}</td>)}
+                    {item.series.map((i, key) => <td className='series' key={key}>{i.serie}</td>)}
                     
                     <td>2m 30s</td>
                   </tr>

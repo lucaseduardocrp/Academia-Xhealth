@@ -36,15 +36,15 @@ const Training = () => {
                 </tr>
               </thead>
               <tbody>
-                  {item.exercises.map((i) => 
-                    <tr>
-                      <td colSpan={2}>{i.exercise }</td>
-                      
-                      {item.series.map((i) => <td>{i.serie}</td>)}
-                      
-                      <td>2m 30s</td>
-                    </tr>
-                  )}
+                {item.exercises.map((i) => 
+                  <tr>
+                    <td colSpan={2} data-label='4 x 15'>{i.exercise }</td>
+                    
+                    {item.series.map((i) => <td className='series'>{i.serie}</td>)}
+                    
+                    <td>2m 30s</td>
+                  </tr>
+                )}
               </tbody>
             </Table>
           )}  

@@ -25,7 +25,7 @@ export const CarouselContainer = styled.div`
     .preview{
       transform: rotateY(180deg);
     }
-}
+  }
 `;
 
 export const Carousel = styled.div`
@@ -60,5 +60,21 @@ export const Table = styled.table`
     color: ${({theme}) => theme.colors.dark100};
     font-size: var(--xl);
     font-weight: 900;
+  }
+
+  @media (max-width: 48rem) {
+    max-width: 37rem;
+
+    thead, .series{
+      display: none;
+    }
+
+    td{
+      &::before{
+        content: attr(data-label);
+        float: right;
+        color: ${({theme}) => theme.colors.light};
+      }
+    }
   }
 `;

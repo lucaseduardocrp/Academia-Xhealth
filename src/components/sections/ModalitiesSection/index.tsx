@@ -21,11 +21,11 @@ export const ModalitiesSection = () => {
           title='MUSCULAÇÃO'
           emphasis='XHEALTH'
           description='Musculação é um exercício de força com pesos ou máquinas para fortalecer músculos, melhorar a aparência, a saúde e aprimorar a composição corporal.'
-          alingend
+          alingend={true}
         />
         <div className='btn-container'>
           <Link to='/modalities'>
-            <Button href='#' border>
+            <Button href='#' border={true}>
                 Ver todas modalidades
             </Button>
           </Link>

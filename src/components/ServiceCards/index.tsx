@@ -14,7 +14,7 @@ const ServiceCards = () => {
         </TextContent>
         
         <ButtonContainer>
-          <Button href='#Plans' border full>Contratar serviço</Button>
+          <Button href='#Plans' border={true} full={true}>Contratar serviço</Button>
         </ButtonContainer>
       </Container>
       )}

@@ -22,7 +22,7 @@ Através dessa página, os possíveis clientes devem poder enviar mensagens para
 As cores principais da academia são Preto e Amarelo, por isso gostaria que a página seguisse esse padrão de cores. Um detalhe importante é que o design precisa ser moderno, elegante e que demonstre toda a qualidade dos serviços que oferecemos. Nossos equipamentos são todos novos e temos profissionais renomados no mercado para orientar os alunos em todas as atividades. 
 
 -- 
-🤓  Informações adicionais:
+<h3>🤓  Informações adicionais:</h3>h3>
 
 -As tecnologias utilizadas:
 
